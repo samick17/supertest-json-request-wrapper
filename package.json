@@ -1,6 +1,6 @@
 {
   "name": "supertest-json-request-wrapper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "dependencies": {
@@ -14,5 +14,5 @@
     "test": "node_modules/.bin/mocha ./test/**/*.mocha.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "MIT"
 }

@@ -4,4 +4,4 @@ To simplify routing testcase.
 
 ## Installation
 
-npm i 
+npm i supertest-json-request-wrapper
