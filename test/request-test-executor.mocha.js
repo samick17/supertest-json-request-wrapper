@@ -13,7 +13,11 @@ describe('request-test-executor', () => {
 			id: '1',
 			name: 'TodoItem1'
 		}],
-		titlePostfix: ': TODOListAPI'
+		titlePostfix: ': TODOListAPI',
+		//postAction is optional
+		postAction: (done) => {
+			done();
+		}
 	});
 
 	tester.testPUT({
